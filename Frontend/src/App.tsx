@@ -3,7 +3,9 @@ import Login from './Login';
 import CreateProject from './CreateProject';
 import ProjectList from './ProjectList';
 import Register from './Register';
-import './Styles/App.css';  
+import './Styles/Global.css';
+
+
 
 const App: React.FC = () => {
   const [token, setToken] = useState<string | null>(null);
