@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Styles/Login.css'; 
+import './Styles/Login.css';
+ 
 
 interface LoginProps {
   setToken: (token: string) => void;
@@ -30,7 +31,7 @@ const Login: React.FC<LoginProps> = ({ setToken, navigateToRegister }) => {
   };
 
   return (
-    <div className="login-container">
+    <div className="container">
       <p className="system-description">Sistema de Gestão de Projetos</p> {}
       <div className="login-form">
         <h2>Login</h2>

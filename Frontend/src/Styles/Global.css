@@ -1,8 +1,12 @@
+/* Gradiente no background */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background: linear-gradient(to right, #FF512F, #F09819); /* Gradiente de laranja a vermelho */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, h2, h3 {
@@ -29,7 +33,6 @@ input, textarea {
   background-color: #e04352;
 }
 
-/* Botão genérico */
 .button {
   padding: 10px 20px;
   border: none;
@@ -39,7 +42,6 @@ input, textarea {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Botão de ação primária (Adicionar, Salvar, etc.) */
 .button-primary {
   background-color: #4CAF50;
   color: white;
@@ -50,7 +52,6 @@ input, textarea {
   transform: scale(1.05);
 }
 
-/* Botão de deletar (Excluir) */
 .button-danger {
   background-color: #ff4b5c;
   color: white;
@@ -61,7 +62,6 @@ input, textarea {
   transform: scale(1.05);
 }
 
-/* Botão de editar */
 .button-edit {
   background-color: #f0ad4e;
   color: white;
@@ -72,12 +72,6 @@ input, textarea {
   transform: scale(1.05);
 }
 
-/* Margem entre botões */
-.button-group {
-  margin-right: 10px;
-}
-
-/* Centralização */
 .project-item {
   margin-bottom: 20px;
   padding: 15px;
@@ -86,8 +80,4 @@ input, textarea {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
-}
-
-h1{
-  align-items: center;
 }
