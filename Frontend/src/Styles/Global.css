@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+input, textarea {
+  font-size: 1rem;
+}
+
+.logout-button {
+  background-color: #ff4b5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e04352;
+}
+
+/* Botão genérico */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botão de ação primária (Adicionar, Salvar, etc.) */
+.button-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Botão de deletar (Excluir) */
+.button-danger {
+  background-color: #ff4b5c;
+  color: white;
+}
+
+.button-danger:hover {
+  background-color: #e04352;
+  transform: scale(1.05);
+}
+
+/* Botão de editar */
+.button-edit {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.button-edit:hover {
+  background-color: #ec971f;
+  transform: scale(1.05);
+}
+
+/* Margem entre botões */
+.button-group {
+  margin-right: 10px;
+}
+
+/* Centralização */
+.project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1{
+  align-items: center;
+}

@@ -1,0 +1,123 @@
+/* Botão genérico */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+/* Botão primário (Adicionar, Salvar, etc.) */
+.button-primary {
+  background-color: #4CAF50;
+}
+
+.button-primary:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Botão de excluir */
+.button-danger {
+  background-color: #ff4b5c;
+}
+
+.button-danger:hover {
+  background-color: #e04352;
+  transform: scale(1.05);
+}
+
+/* Botão de editar */
+.button-edit {
+  background-color: #f0ad4e;
+}
+
+.button-edit:hover {
+  background-color: #ec971f;
+  transform: scale(1.05);
+}
+
+/* Botão de registro e login */
+.button-register {
+  background-color: #007bff;
+}
+
+.button-register:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Centralização e margem */
+.project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+/* Formulário de criação de projeto */
+.create-project-form {
+  margin: 20px 0;
+}
+
+.create-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 50%;
+  align-items: center;
+}
+
+.create-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.edit-project-form {
+  margin-top: 20px;
+}
+
+.edit-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.edit-button {
+  background-color: #f0ad4e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-button:hover {
+  background-color: #ec971f;
+  transform: scale(1.05);
+}
