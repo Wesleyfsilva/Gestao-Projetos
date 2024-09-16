@@ -187,4 +187,3 @@ Observações
 Contato
 
     Wesley Ferreira Silva
-        E-mail: wesleyfsilva97@gmail.com
