@@ -1,0 +1,96 @@
+/* Estilos para o contêiner de login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  background-color: #f0f4f8; 
+  padding: 20px; 
+  position: relative; 
+}
+
+/* Estilos para o formulário de login */
+.login-form {
+  background-color: #ffffff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  max-width: 400px; 
+  text-align: center; 
+}
+
+/* Estilo para o título do formulário */
+.system-description {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: #4A90E2;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+/* Estilo para o título do formulário */
+.login-form h2 {
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+/* Estilo para os campos de entrada */
+.login-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+/* Estilo para o botão de login */
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Estilo para o botão de registro */
+.register-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.875rem; 
+}

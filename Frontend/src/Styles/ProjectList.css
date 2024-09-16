@@ -1,0 +1,30 @@
+.project-list-container {
+  margin: 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project-item h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.project-item p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.project-item span {
+  display: inline-block;
+  font-size: 0.9rem;
+  background-color: #007BFF;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
