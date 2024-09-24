@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Styles/CreateProject.css';  
+import '../Styles/CreateProject.css'
 
 interface CreateProjectProps {
   token: string;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Styles/Register.css'; 
+import '../Styles/Register.css'; 
 
 interface RegisterProps {
   navigateToLogin: () => void;

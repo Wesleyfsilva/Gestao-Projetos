@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Styles/Login.css';
+import '../Styles/Login.css';
  
 
 interface LoginProps {
