@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Login from '../components/Login';
-import CreateProject from '../components/CreateProject';
-import ProjectList from '../components/ProjectList';
-import Register from '../components/Register';
+import Login from '../pages/Login';
+import CreateProject from '../pages/CreateProject';
+import ProjectList from '../pages/ProjectList';
+import Register from '../pages/Register';
 import '../Styles/Global.css'; // Primeiro os estilos globais
 import '../Styles/App.css'; 
 
