@@ -3,7 +3,8 @@ import Login from './Login';
 import CreateProject from './CreateProject';
 import ProjectList from './ProjectList';
 import Register from './Register';
-import './Styles/Global.css';
+import './Styles/Global.css'; // Primeiro os estilos globais
+import './Styles/App.css'; 
 
 
 

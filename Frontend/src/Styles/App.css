@@ -5,7 +5,6 @@
   align-items: center; 
   justify-content: center; 
   min-height: 100vh; 
-  background-color: #f0f4f8; 
   padding: 20px;
 }
 
@@ -15,7 +14,7 @@
   font-weight: bold;
   margin-bottom: 20px; 
   text-align: center; 
-  color: #333; 
+  color: #ffffff !important; 
 }
 
 /* Estilo para o botão de logout */
