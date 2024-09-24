@@ -1,3 +1,4 @@
+import dotenv from 'dotenv';
 
 declare namespace NodeJS {
   interface ProcessEnv {
